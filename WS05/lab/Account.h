@@ -11,9 +11,10 @@ namespace sdds {
       Account();
       Account(int number, double balance);
       std::ostream& display()const;
-
-
-
+      operator bool();
+      operator int();
+      operator double();
+      bool operator ~();
    };
    
    
